@@ -1,12 +1,14 @@
 '''
-Code to dress SMPL with registered garments.
-Set the "path" variable in this code to the downloaded Multi-Garment Dataset
+Code for wearing registered clothing items on SMPL models.
+Set the "path" variable in the code to the path to the downloaded multi-clothing dataset.
 
-If you use this code please cite:
-"Multi-Garment Net: Learning to Dress 3D People from Images", ICCV 2019
+If you use this code, please cite the following paper:
+Bharat, Lang, et al. "Multi-Garment Net: Learning to Dress 3D People from Images." Proceedings of the 2019 IEEE International Conference on Computer Vision (ICCV).
 
-Code author: Bharat
-Shout out to Chaitanya for intersection removal code
+Code author:Bharat
+Special thanks to Chaitanya for providing the intersection removal code (used to process and eliminate mutual penetration between clothing and body models in 3D models).
+
+This code comes from: https://github.com/bharat-b7/MultiGarmentNetwork
 '''
 
 from psbody.mesh import Mesh, MeshViewers
